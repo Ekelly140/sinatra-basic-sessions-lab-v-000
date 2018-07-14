@@ -12,7 +12,6 @@ class App < Sinatra::Base
 
   post '/' do
     @item = Item.new(params[:name])
-
   end
 
 end
