@@ -10,4 +10,8 @@ class App < Sinatra::Base
     erb :index
   end
 
+  post '/' do
+
+  end
+
 end
