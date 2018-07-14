@@ -1,8 +1,8 @@
 class Item
-  attr_accessor :name
+  attr_accessor :item
   ITEMS = []
-      def initialize(name)
-      @name = name
+      def initialize(item)
+      @item = item
       ITEMS << self
     end
 end
