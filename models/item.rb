@@ -5,4 +5,4 @@ class Item
       @name = name
       ITEMS << self
     end
-end 
+end
